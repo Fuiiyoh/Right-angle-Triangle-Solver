@@ -116,7 +116,7 @@ What do you want to solve using? (1/2): ''', 2,
     break
 
   # Given two sides
-  elif chosen_values == "ts":
+  elif chosen_values == "1":
     missing_side = string_checker("What side are you missing? (A/B/C): ", 3,
                                   sides_list)
 
