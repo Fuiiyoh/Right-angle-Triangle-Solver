@@ -199,7 +199,7 @@ What do you want to solve using? (1/2): ''', 2,
       if known_side == "a":
         a = side
         b = round(side * math.tan(math.radians(angle)), 2)
-        c = side / math.cos(math.radians(angle))
+        c = round(side / math.cos(math.radians(angle)), 2)
 
       elif known_side == "b":
         a = round(side / math.tan(math.radians(angle)), 2)
