@@ -204,7 +204,7 @@ What do you want to solve using? (1/2): ''', 2,
       elif known_side == "b":
         a = round(side / math.tan(math.radians(angle)), 2)
         b = side
-        c = side / math.sin(math.radians(angle))
+        c = round(side / math.sin(math.radians(angle)), 2)
 
       else:
         a = round(side * math.cos(math.radians(angle)), 2)
