@@ -28,7 +28,7 @@ def show_instructions():
 - Two angles cannot solve the sides of the triangle
 - Side c cannot be less than sides a and b
 - Decimals are rounded to 2 decimal places
-- Angles must be inbetween 0 and 90 degrees
+- Angles must be in-between 0 and 90 degrees
 
 {italic + "Visual graph shown below:" + end}
 - a, b, c are sides
@@ -58,7 +58,7 @@ def num_check(question, rule):
         else:
           print(red + "Please enter an number greater than 0" + end)
           continue
-      # this rule is specifically for the angles (they must be kept inbetween 0 and 90)
+      # this rule is specifically for the angles (they must be kept in-between 0 and 90)
       else:
         if 0 < response < 90:
           pass
@@ -96,7 +96,7 @@ def string_checker(question, num_responses, valid_responses):
     print(red + error + end)
 
 
-#### MAIN ROUNTINE ####
+#### MAIN ROUTINE ####
 
 # lists
 yes_no_list = ["yes", "no"]
