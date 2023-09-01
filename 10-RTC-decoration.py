@@ -178,7 +178,7 @@ What do you want to solve with? (1/2): ''', 2, select_list)
       angle_A = round(math.degrees(math.atan(a / b)), 2)
 
     # calculation for angle B
-    angle_B = round(90 - angle_A, 2)
+    angle_B = 90 - angle_A
 
   #### GIVEN A SIDE AND AN ANGLE ####
   else:
@@ -208,7 +208,7 @@ What do you want to solve with? (1/2): ''', 2, select_list)
         c = side
 
       angle_A = angle
-      angle_B = round(90 - angle, 2)
+      angle_B = 90 - angle
 
     # angle B calculations
     else:
@@ -227,7 +227,7 @@ What do you want to solve with? (1/2): ''', 2, select_list)
         b = round(side * math.sin(math.radians(angle)), 2)
         c = side
 
-      angle_A = round(90 - angle, 2)
+      angle_A = 90 - angle
       angle_B = angle
 
   # Store calculation history
